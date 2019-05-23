@@ -1,0 +1,112 @@
+body {
+    direction: rtl;
+}
+
+h1, p, b, ul, li, label, input, span {
+    font-family: 'Heebo', sans-serif;
+    color: navy;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#hitlogo {
+    position: relative;
+    bottom: 818px;
+    right: 340px;
+    height: 80px
+}
+
+#facebooklogo {
+    position: relative;
+    bottom: 854px;
+    right: 342px;
+    width: 27px;
+    height: 25px;
+}
+
+#youtubelogo {
+    position: relative;
+    bottom: 854px;
+    right: 135px;
+    width: 30px;
+    height: 22px;
+}
+
+#telem {
+    font-size: 24pt;
+    position: relative;
+    bottom: 786px;
+    right: 253px;
+}
+
+#questions {
+    font-size: 13pt;
+    position: relative;
+    bottom: 718px;
+    right: 170px;
+    list-style-type: none;
+}
+
+.Qlist {
+    padding: 10px;
+    margin: 3px;
+}
+
+span, .place {
+    color: orange;
+    font-weight: bold;
+}
+
+#courses {
+    position: relative;
+    bottom: 678px;
+    right: 183px;
+}
+
+.icon {
+    padding: 1px;
+    margin: 10px;
+    position: relative;
+    right: 18px;
+}
+
+.place {
+    position: absolute;
+    bottom: -7px;
+}
+
+#Ftheme {
+    right: 42px;
+}
+
+#Stheme {
+    right: 133px;
+}
+
+#Ttheme {
+    right: 217px;
+}
+
+#form {
+    position: relative;
+    bottom: 610px;
+    right: 184px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+
+input[type ='text'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}

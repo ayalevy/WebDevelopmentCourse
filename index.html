@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>דף הרשמה- טכנולוגיות למידה</title>
+    <meta name="description" content="דף הרשמה תואר ראשון טלמ, טכנולוגיות למידה, המכון הטכנולוגי חולון HIT" />
+    <meta name="keywords" content="תיק עבודותהמכון הטכנולוגי חולון, טלמ, טכנולוגיות למידה, תואר ראשון, HIT, B.A" />
+    <meta name="author" content="איה לוי, Aya Levy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+    </style>
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="container">
+        <img src="images/background.jpg" width="960" height="840" />
+        <header>
+            <a href="https://www.hit.ac.il/telem/B.A" target="_blank">
+                <img id="hitlogo" alt="HITlogo" src="images/logo50.png"> 
+            </a>
+            <a href="https://he-il.facebook.com/HIT.IL/" target="_blank">
+                <img id="facebooklogo" alt="HIT_facebook" src="images/facebook.png" />
+            </a>
+            <a href="https://www.youtube.com/user/HITvod" target="_blank">
+                <img id="youtubelogo" alt="HIT_youtube" src="images/youtube.png" />
+            </a>
+                        <h1 id="telem"> B.A בטכנולוגיות למידה</h1>
+        </header>
+        <article>
+            <section>
+                <ul id="questions">
+                    <li class="Qlist">
+                        <span> >> </span> מתעניין בעולמות של מולטימדיה ותוכן דיגיטלי?
+                    </li>
+                    <li class="Qlist">
+                        <span> >> </span> בעל רקע בהדרכה ו/או בעיצוב ממשק ואינטראקציה?
+                    </li>
+                    <li class="Qlist">
+                        <span> >> </span> בעל "ראש גדול" ומעוניין להיות מהמובילים בתחומי העתיד?
+                    </li>
+                </ul>
+            </section>
+
+            <section id="courses">
+                <p> <b>בואו ללמוד תואר ראשון וייחודי מסוגו בישראל המשלב : </b></p>
+                <img class="icon" src="images/design_icon.png" />
+                <img class="icon" src="images/code_icon.png" />
+                <img class="icon" src="images/teaching_icon.png" />
+                <p class="place" id="Ftheme">עיצוב</p>
+                <p class="place" id="Stheme">תכנות</p>
+                <p class="place" id="Ttheme">הדרכה</p>
+
+            </section>
+
+            <section id="form">
+                <p><b>הזן את פרטייך מטה ונחזור אלייך בהקדם:</b></p>
+                <form>
+                    <label for="FirstName">
+                        שם פרטי:
+                        <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" />
+                    </label>
+
+                    <label for="LastName">
+                        שם משפחה:
+                        <input type="text" id="LastName" placeholder="הכנס את שם משפתך" />
+                    </label>
+
+                    <label for="PhoneNumber">
+                        מספר טלפון:
+                        <input type="text" name="phone" placeholder="050-1234567" />
+                    </label>
+
+                    <input type="hidden" id="myEmail" name="name" value="aya.levy274@gmail.com">
+
+                    <label for="cb1">
+                        <input type="checkbox" id="cb1" checked /> מוכן לקבל דואר פירסומי
+                    </label>
+
+                    <input type="submit" id="Send" value="שלח">
+
+                    <div id="feedback"></div>
+                </form>
+            </section>
+        </article>
+    </div>
+</body>
+</html>
